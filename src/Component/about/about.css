@@ -1,0 +1,42 @@
+/* AboutSection.css */
+
+.about-section {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .about-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content .highlight {
+    color: #00bfa5;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .about-content a {
+    color: #00bfa5;
+    text-decoration: none;
+  }
+  
+  .about-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+  

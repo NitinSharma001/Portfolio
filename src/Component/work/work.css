@@ -1,0 +1,79 @@
+/* RecentWorksSection.css */
+
+.recent-works-section {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .recent-works-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .recent-works-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .recent-works-section .highlight {
+    color: #00bfa5;
+  }
+  
+  .filter-buttons {
+    margin-bottom: 30px;
+  }
+  
+  .filter-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .filter-button.active {
+    background-color: #00bfa5;
+  }
+  
+  .filter-button:hover {
+    background-color: #555;
+  }
+  
+  .works-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .work-item {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .work-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .work-item h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
